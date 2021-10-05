@@ -17,7 +17,11 @@ body{
     width: 90%;
     margin: 50px auto 0 auto;
     padding: 30px;
-    display: flex;
+}
+.container2{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
 }
 .fixo{
     width: 20%;
@@ -31,7 +35,10 @@ body{
     width: 90%;
 }
 .conteudo{
-    width: 70%;
-    float: right
-    ;
+    width: 75%;
+    float: right;
+    text-align: left;
+    background-color: #acb5b6;
+    border-right: solid 1px #ccc;
+    border-left: solid 1px #ccc;
 }
