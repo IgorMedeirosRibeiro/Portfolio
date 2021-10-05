@@ -12,13 +12,15 @@ body{
     background-color: #eeeeee;
 }
 
-.container{
+.cor{
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
     background-color: rgb(152, 225, 235);
     width: 90%;
     margin: 50px auto 0 auto;
     padding: 30px;
 }
-.container2{
+.container{
     width: 90%;
     margin: auto;
     padding: 30px 0px 30px 0px;
@@ -39,6 +41,14 @@ body{
     float: right;
     text-align: left;
     background-color: #acb5b6;
-    border-right: solid 1px #ccc;
-    border-left: solid 1px #ccc;
+    border-radius: 7px;
+}
+.textCenter{
+    margin: 30px 0;
+    font-size: 40px;
+    text-align: Center;
+}
+.curriculo{
+    width: 90%;
+    margin: auto;
 }
