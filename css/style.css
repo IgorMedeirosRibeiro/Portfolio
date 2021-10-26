@@ -89,12 +89,16 @@ p{
 small {
     margin-left: 25px;
 }
-.dflex{
+.dFlex{
     display: flex;
+    align-items: center;
 }
-.imgMedia{
-    width: 30%;
-    height: 30%;
+.dFlex{
+    display: flex;
+    align-items: center;
+}
+span.dFlexSpan {
+    margin: 0 0 0 5%;
 }
 .google{
     width: 60%;
@@ -103,4 +107,16 @@ small {
 .google img{
     width: 60%;
     height: 60%;
+}
+.imgMedia{
+    width: 30%;
+    height: 30%;
+}
+.imgGrande{
+    width: 40%;
+    height: 40%;
+}
+
+.margemTop{
+    margin-top:60px;
 }
