@@ -1,3 +1,9 @@
+
+
+
+
+/* ESTILOS GERAIS */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
@@ -11,10 +17,11 @@ body{
     font-family: Poppins;
     background-color: #000000;
 }
+
 .cor{
     -webkit-border-top-right-radius: 30px;
     -webkit-border-top-left-radius: 30px;
-    background-color: #033030;
+    background-color: #410c72;
     width: 90%;
     margin: 50px auto 0 auto;
     padding: 30px;
@@ -24,13 +31,21 @@ body{
     margin: auto;
     padding: 30px 0px 30px 0px;
 }
+
+.mt{
+    margin-top: 190px;
+}
+
+/* Menu Fixo */
+
 .fixo{
     width: 20%;
     padding: 10px 5px ;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color:#f3f3f3;
     text-align: center;
     position: fixed;
+    border: solid 5px #410c72;
 }
 .fixo figure img{
     width: 90%;
@@ -38,85 +53,339 @@ body{
 
 .fixo a {
     color: #000;
+    font-size: 20px;
 }
 .fixo a:hover{
     color: #033030;
 }
+
+
+
+/* COMEÇO MAIN */
+
 .conteudo{
     width: 75%;
     float: right;
-    text-align: left;
     background-color: #f3f3f3;
-    -webkit-border-top-right-radius: 30px;
-    -webkit-border-top-left-radius: 30px;
+    border-radius: 30px;
+    /* -webkit-border-top-right-radius: 30px;
+    -webkit-border-top-left-radius: 30px; */
+    padding: 3%;
+    border: solid 5px #410c72;
+}
+
+/* Apresentação */
+
+.apresentacao{
+    display: flex;
+    align-items:center;
+}
+
+.imgApresentacao{
+    width: 20%;
+}
+.imgApresentacao imgMenino{
+    width: 100%;
+}
+
+.text{
+    width: 100%;
+}
+
+.text h1 a{
+    font-size:70px;
+    color: #000;
+}
+.text h1 a:hover{
+    color: #033030;
+}
+
+.text p {
+    margin: 15px 0;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+/* Experiências */
+
+.experiencias{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.imgExperiencias{
+    width: 40%;
+}
+
+.textImg{
+    padding: 15% 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.textImg img{
+    margin: 0 4% 0 0 ;
+    width: 20%;
+    height: 20%;
+}
+
+
+/* Minhas Formações */
+
+.formacoes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.imgFormacoes{
+    width: 30%;
+}
+.imgAcademico{
+    width: 100%;
+}
+
+.textFormacoes{
+    display: flex;
+    align-items: center;
+}
+
+.escola{
+    width: 10%;
+    height: 10%;
+}
+
+.pp{
     padding: 3%;
 }
-p{
-    margin-bottom: 15px;
-    text-align: justify;
-}
-.textCenter{
-    margin: 30px 0;
-    font-size: 40px;
-    text-align: Center;
-    color: #033030; 
-}
-.textCenter a{
-    color: #033030; 
-}
-.textCenter a:hover{
-    color: #0a6969; 
-}
-.textos{
-    margin: 20px;
-    text-align: justify;
-}
-.experiencias span {
-    text-align: left;
-}
 
-.IMGS{
-    margin-top: 70px;
+
+/* Currículo */
+
+.textCurriculo{
     text-align: center;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-}
-.imagensEmLinha{
-    margin-top: 70px;
-    margin-bottom: 30px;
-}
-small {
-    margin-left: 25px;
-}
-.dFlex{
-    display: flex;
-    align-items: center;
-}
-.dFlex{
-    display: flex;
-    align-items: center;
-}
-span.dFlexSpan {
-    margin: 0 0 0 5%;
-}
-.google{
-    width: 60%;
-    height: 60%;
-}
-.google img{
-    width: 60%;
-    height: 60%;
-}
-.imgMedia{
-    width: 30%;
-    height: 30%;
-}
-.imgGrande{
-    width: 40%;
-    height: 40%;
+    width: 100%;
 }
 
-.margemTop{
-    margin-top:60px;
+.textCurriculo h1 a{
+    font-size:70px;
+    color: #000;
+}
+
+.textCurriculo h1 a:hover{
+    color: #033030;
+}
+
+
+/* Portfólio */
+
+.portfolio{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 5%;
+}
+
+.altura{
+    height:500px;
+}
+
+.buttons{
+    padding: 20px 80px;
+    border-radius: 30px;
+    color: #fff;
+    margin: auto;
+}
+.buttons:hover{
+    padding: 22px 90px;
+}
+
+.buttonVerde{
+    position: absolute;
+    top: 0;
+    left: 32%;
+    background-color:rgb(1, 32, 19);
+}
+
+.buttonVerde:hover{
+    background-color:rgb(5, 59, 37);
+}
+
+.buttonLaranja{
+    position: absolute;
+    top: 23%;
+    left: 58%;
+    background-color:rgb(119, 46, 17);
+}
+
+.buttonLaranja:hover{
+    background-color:rgb(182, 69, 24);
+} 
+
+.buttonMarrom{
+    position: absolute;
+    top: 100%;
+    left: 32%;
+    background-color:rgb(46, 23, 15);
+}
+
+.buttonMarrom:hover{
+    background-color:rgb(90, 50, 36);
+}
+
+.buttonAzul{
+    position: absolute;
+    top: 75%;
+    left: 58%;
+    background-color:rgb(4, 17, 53);
+}
+
+.buttonAzul:hover{
+    background-color:rgb(8, 30, 88);
+}
+
+.buttonVermelhoEscuro{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    background-color: rgb(39, 8, 8)
+}
+
+.buttonVermelhoEscuro:hover{
+    background-color: rgb(77, 18, 18)
+}
+
+.buttonAzulClaro{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    background-color: rgb(20, 124, 168);
+}
+
+.buttonAzulClaro:hover{
+    background-color: rgb(29, 187, 255);
+}
+
+.buttonVerdeClaro{
+    position: absolute;
+    top: 23%;
+    left: 11%;
+    background-color: rgb(8, 138, 29);
+}
+
+.buttonVerdeClaro:hover{
+    background-color: rgb(16, 209, 48);
+}
+
+.bgEscuro{
+    background-color:rgb(0, 0, 0);
+    border: none;
+}
+
+.mb{
+    margin-bottom: 190px;
+}
+
+
+
+/* Atividades */
+
+.atividades{
+    width: 93%;
+    margin: 50px auto 0 auto;
+}
+
+.cardsAtividades{
+    display: flex;
+    width: 100%;
+}
+
+.cards{
+    background-color:rgba(14, 14, 14, 0.897);
+    height: 30%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    border: solid 0.5px #410c72;
+}
+
+.cards:hover{
+    border: solid 0.5px #7b0fe0;
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+}
+
+.cards p a{
+    color:#7b0fe0;
+}
+
+.pmt{
+    margin-top: 20px;
+}
+
+.pmb{
+    margin-bottom: 20px;
+}
+
+
+
+/* Footer */
+
+
+footer{
+    color: #fff;
+    width: 100%;
+    float: right;
+    background-color: #033030;
+}
+
+
+/* Responsividade */
+
+@media screen and (max-width: 900px){
+    
+    .cards p a{
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    
+    .cards p a{
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    
+    .cards p a{
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    
+    .cardsAtividades {
+        flex-direction: column;
+    }
+    .cards{
+        width: 70%;
+        height: 70%;
+        margin-bottom: 30px;
+    }
+    .pmt{
+        margin-top:0
+    }
+    .cards p a{
+        font-size: 12px;
+    }
+
 }
