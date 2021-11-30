@@ -115,10 +115,6 @@ body{
     text-align: center;
 }
 
-.imgExperiencias{
-    width: 40%;
-}
-
 .textImg{
     padding: 15% 0 0 0;
     display: flex;
@@ -130,6 +126,12 @@ body{
     height: 20%;
 }
 
+.imgExperiencias{
+    width: 40%;
+}
+.imgMenino{
+    width:70%;
+}
 
 /* Minhas Formações */
 
@@ -347,12 +349,71 @@ footer{
 
 /* Responsividade */
 
+@media screen and (max-width: 1420px){
+
+    .text p {
+        font-size: 13px;
+    }
+
+    .imgSorriso{
+        width: 80%;
+    }
+    .text h1 a{
+        font-size: 50px;
+    }
+    .textCurriculo h1 a{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .imgExperiencias{
+        display: none;
+    }
+    .textImg{
+        padding: 10% 0 0 0;
+    }
+
+}
+
 @media screen and (max-width: 900px){
     
     .cards p a{
         font-size: 13px;
     }
+    .imgFormacoes{
+        display: none;
+    }
+    .text h1 a{
+        font-size: 40px;
+    }
+    .textCurriculo h1 a{
+        font-size: 40px;
+    }
+    
+    .imgSorriso{
+        width: 75%;
+    }
+    .fixo{
+        display: none;
+    }
+    .container{
+        margin: 0 0 0 -46px;
+    }
+    .portfolio{
+        margin-left: -5%;
+    }
+}
 
+@media screen and (max-width: 830px){
+    .imgSorriso{
+        display: none;
+    }
+    .buttons{
+        font-size:13px ;
+        padding: 15px 60px;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -360,15 +421,76 @@ footer{
     .cards p a{
         font-size: 11px;
     }
-
+    .text h1 a{
+        font-size: 30px;
+    }
+    .textCurriculo h1 a{
+        font-size: 30px;
+    }
+    .textImg{
+        padding: 0px 0 0 0 ;
+    }
 }
 
 @media screen and (max-width: 580px){
     
+    .textImg p {
+        font-size: 10px;
+    }
+    .textImg img{
+        width:25%;
+        height: 25%;
+    }
+    .text h1 a{
+        font-size: 25px;
+    }
+    .conteudo {
+        width: 80%;
+        margin: auto;
+    }
+    .mt{
+        margin-top:30px;
+    }
+    .container{
+        margin-left: 0px;
+    }
+    .conteudo{
+        width: 90%;
+    }
     .cards p a{
         font-size: 9px;
     }
-
+    .buttons{
+        margin: auto;
+    }
+    .buttonVerde{
+        top: 200px;
+        left: 0;
+    }
+    .buttonVerdeClaro{
+        top: 300px;
+        left: 0px;
+    }
+    .buttonLaranja{
+        top: 100px;
+        left: 0px;
+    }
+    .buttonVermelhoEscuro{
+        top: 0px;
+        left: 0;
+    }
+    .buttonAzulClaro{
+        top: 250px;
+        left: 0;
+    }
+    .buttonAzul{
+        top: 50px;
+        left: 0;
+    }
+    .buttonMarrom{
+        top: 150px;
+        left: 0;
+    }
 }
 
 @media screen and (max-width: 500px){
