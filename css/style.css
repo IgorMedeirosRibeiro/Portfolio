@@ -25,6 +25,7 @@ body{
     width: 90%;
     margin: 50px auto 0 auto;
     padding: 30px;
+    color: #fff;
 }
 .container{
     width: 90%;
@@ -334,6 +335,10 @@ body{
     margin-bottom: 20px;
 }
 
+.mmt{
+    margin-top: 200px;
+}
+
 
 
 /* Footer */
@@ -509,6 +514,9 @@ footer{
     }
     .pmt{
         margin-top:0
+    }
+    .mmt{
+        margin-top: 50px;
     }
     .cards p a{
         font-size: 12px;
