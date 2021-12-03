@@ -10,41 +10,41 @@
 </head>
 
 <body>
-    <div class="cor">
+    <div class="cor" id="cor">
     </div>
     <div class="container">
 
 
-        <div class="fixo">      
+        <div class="fixo" >      
             <figure>
                 <img src="./img/Eu.png" alt="">
             </figure>
             <div class="ulFixo">
                 <ul>
                     <li>
-                        <a href="index.html">Home Page</a>
+                        <a href="#cor">Home Page</a>
                     </li>
                     <li>
-                        <a href="apresentacao.html">Quem Sou eu?</a>
+                        <a href="#apresentacao">Quem Sou eu?</a>
                     </li>
                     <li>
-                        <a href="experiencias.html">Experiências</a>
+                        <a href="#experiencias">Experiências</a>
                     </li>
                     <li>
-                        <a href="formacoes.html">Formações</a>
+                        <a href="#formacoes">Formações</a>
                     </li>
                     <li>
-                        <a href="curriculo.html">Currículo</a>
+                        <a href="#curriculo">Currículo</a>
                     </li>
                     <li>
-                        <a href="index.html">Portfólio</a>
+                        <a href="#portfolio">Portfólio</a>
                     </li>
                 </ul>
             </div>
         </div>
 
         <div class="bigDiv">
-            <div class="conteudo">           
+            <div class="conteudo" id="apresentacao" data-anime="left">           
     
                 <div class="apresentacao">
     
@@ -73,7 +73,7 @@
                 
             </div>
     
-            <div class="conteudo mt ">           
+            <div class="conteudo mt" id="experiencias" data-anime="left">           
     
                 <div class="apresentacao">
     
@@ -106,7 +106,7 @@
                 
             </div>
     
-            <div class="conteudo mt">           
+            <div class="conteudo mt" id="formacoes" data-anime="left">           
     
                 <div class="formacoes">
     
@@ -148,7 +148,7 @@
                 
             </div>
             
-            <div class="conteudo mt">           
+            <div class="conteudo mt" id="curriculo" data-anime="right">           
     
                 <div class="curriculo">
                     <div class="textCurriculo">
@@ -166,7 +166,7 @@
                 
             </div>
             
-            <div class="conteudo altura mt mb bgEscuro"> 
+            <div class="conteudo altura mt mb bgEscuro" id="portfolio" data-anime="left"> 
                 <div class="portfolio">
                     <a href="./natureza.html" class="buttons buttonVerde" target="_blank"> Natureza</a>
                     <a href="./linguagens.html" class="buttons buttonLaranja" target="_blank"> Linguagens</a>
@@ -179,6 +179,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
