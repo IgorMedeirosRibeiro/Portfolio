@@ -481,8 +481,17 @@ footer{
     }
 }
 
+@media screen and (max-width: 635px){
+    #iTitle{
+        font-size: 26px;
+    }
+}
+
 @media screen and (max-width: 580px){
-    
+
+    #iTitle{
+        font-size: 18px;
+    }
     .textImg p {
         font-size: 10px;
     }
@@ -542,6 +551,7 @@ footer{
     }
 }
 
+
 @media screen and (max-width: 500px){
     
     .cardsAtividades {
@@ -562,4 +572,10 @@ footer{
         font-size: 12px;
     }
 
+}
+
+@media screen and (max-width: 400px){
+    #iTitle{
+        font-size: 11px;
+    }
 }
