@@ -45,24 +45,3 @@ if(alvo.length){
     }, 50))
 }
 
-// Scroll Para Link Interno
-
-const menuItems = document.querySelectorAll('.ulFixo ul li a[href^="#"]')
-
-
-menuItems.forEach(item => {
-    item.addEventListener('click', scrollToIdOnClick)
-})
-
-function scrollToIdOnClick(event) {
-    event.preventDefault()
-    const element = event.target
-    const id = element.getAttribute('href')
-    const to = document.querySelector(id).offsetTop
-    
-
-    window.scroll({
-        top: to -80,
-        behavior: "smooth",
-    })
-}
