@@ -397,6 +397,13 @@ footer{
     display: inline-block;
     animation: blink .7s infinite;
 }
+.pTitle::after{
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
 
 @keyframes blink {
     0%, 100% {
@@ -476,6 +483,9 @@ footer{
     .buttons:hover{
         font-size:13px ;
         padding: 15px 60px;
+    }
+    .mt{
+        margin-top:30px;
     }
 }
 
